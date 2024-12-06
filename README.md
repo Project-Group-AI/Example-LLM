@@ -12,6 +12,6 @@ For this example i use a v-env
 python3 main.py
 
 
-## Explication
+## Result
 ![CleanShot 2024-12-05 at 23 49 14@2x](https://github.com/user-attachments/assets/25c94942-9c00-4a4d-8dfa-f97fbaa53858)
 
