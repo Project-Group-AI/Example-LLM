@@ -1,6 +1,6 @@
 # Example-of-using-an-LLM
 
-## Short example of you to use an LLM
+## Short example of how to use an LLM
 
 ### Virtual environnement
 For this example i use a v-env
