@@ -17,7 +17,7 @@ def mistral_via_api(prompt):
     headers = {"Authorization": f"Bearer {HF_TOKEN}"}
 
     # Prepare prompt data
-    payload = {"inputs": prompt, "parameters": {"max_length": 300, "temperature": 0.7, "top_k": 50}}
+    payload = {"inputs": prompt, "parameters": {"max_length": 3000, "max_new_tokens": 1000, "temperature": 0.7, "top_k": 50}}
     answer = requests.post(API_URL, headers=headers, json=payload)
 
     # Check answer
